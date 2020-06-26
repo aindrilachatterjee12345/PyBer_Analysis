@@ -23,8 +23,12 @@ The purpose is creating a summary DataFrame of the key metrics for the ride-shar
 ### Technical Analysis
 Loaded the files - city_data_to_load and ride_data_to_load.Read the city data file by using pd.read_csv(city_data_to_load) and store it in a pandas DataFrame.Read the ride data file pd.read_csv(ride_data_to_load) and store it in a pandas DataFrame.Combined the data into a single dataset by using pd.merge(ride_data_df, city_data_df, how="left", on=["city", "city"]).
 ### Results
+Calculated total rides for each city types,total drivers for each city types,the total fares for each city types,the average fare per ride for each city types,the average fare per driver for each city types.To create the summary DataFrame, from the merged DataFrame got the total rides, total drivers, and total fares for each city type using the groupby() function on the city type.Calculated the average fare per ride and the average fare per driver for each city type.Deleted the index name pyber_ride summary_df.index.name.
+Created the summary DataFrame with the appropriate columns- Total fare,Average Fare per Ride,Average Fare per Driver formatted with currency dollar and rounded t 2 decimal place.
 
-### Summary
+The Total fare is shown by City Type. Rural,Subarban and Urban.The fare in Urban cities seems to be more than the rural and subarban is in the mid of the two. The trend seem to remain identical irrespective of the city.Sometimes between February and March sees the peak of the fare. 
+
+
 
 ## Challenges Encountered and Overcome
 
@@ -35,7 +39,6 @@ Loaded the files - city_data_to_load and ride_data_to_load.Read the city data fi
 * Data analysis
 
 * Graphing, etc
-
 ### Technical Analyses Used
 
 ## Recommendations and Next Steps
