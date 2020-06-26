@@ -27,7 +27,7 @@ Calculated total rides for each city types,total drivers for each city types,the
 Created the summary DataFrame with the appropriate columns- Total fare,Average Fare per Ride,Average Fare per Driver formatted with currency dollar and rounded t 2 decimal place.
 
 The Total fare is shown by City Type. Rural,Subarban and Urban.The fare in Urban cities seems to be more than the rural and subarban is in the mid of the two. The trend seem to remain identical irrespective of the city.Sometimes between February and March sees the peak of the fare. 
-
+[Challenge_fare_summary.png][./Users/mitras/Desktop/PyBer_Analysis/Challenge_fare_summary.png]
 
 
 ## Challenges Encountered and Overcome
