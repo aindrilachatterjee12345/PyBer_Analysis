@@ -28,7 +28,7 @@ Created the summary DataFrame with the appropriate columns- Total fare,Average F
 
 The Total fare is shown by City Type. Rural,Subarban and Urban.The fare in Urban cities seems to be more than the rural and subarban is in the mid of the two. The trend seem to remain identical irrespective of the city.Sometimes between February and March sees the peak of the fare. 
 
-![Fare] [Challenge_fare_summary.png]
+![Fare](Challenge_fare_summary.png)
 
 
 ## Challenges Encountered and Overcome
