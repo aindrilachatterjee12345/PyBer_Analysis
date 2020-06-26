@@ -28,7 +28,7 @@ Created the summary DataFrame with the appropriate columns- Total fare,Average F
 
 The Total fare is shown by City Type. Rural,Subarban and Urban.The fare in Urban cities seems to be more than the rural and subarban is in the mid of the two. The trend seem to remain identical irrespective of the city.Sometimes between February and March sees the peak of the fare. 
 
-![Pyber_Analysis][Challenge_fare_summary.png]
+  ![Fare] [Challenge_fare_summary.png]
 
 
 ## Challenges Encountered and Overcome
@@ -36,13 +36,17 @@ The Total fare is shown by City Type. Rural,Subarban and Urban.The fare in Urban
 ### Challenges and Difficulties Encountered
 
 * Programming
-
+Some rows will contain NaNs
 * Data analysis
+Did not help in the analysis as there was no data showing up 
 
 * Graphing, etc
+The plotting was difficult because of NaNs. I could not draw any inference from the graph.
 ### Technical Analyses Used
-
+Created a new df and used resample by week and got sum of the fares for each week
+weekly_fares_df = fare_Jan_April.resample("W").sum()
 ## Recommendations and Next Steps
+
 
 ### Recommendations for Future Analysis
 
