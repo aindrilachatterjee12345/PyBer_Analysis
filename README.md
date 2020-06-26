@@ -35,13 +35,12 @@ The Total fare is shown by City Type. Rural,Subarban and Urban.The fare in Urban
 
 ### Challenges and Difficulties Encountered
 
-* Programming
-Some rows will contain NaNs
-* Data analysis
-Did not help in the analysis as there was no data showing up 
-
-* Graphing, etc
-The plotting was difficult because of NaNs. I could not draw any inference from the graph.
+   ### Programming:
+    Some rows will contain NaNs
+   ### Data analysis:
+    Did not help in the analysis as there was no data showing up 
+   ### Graphing:
+    The plotting was difficult because of NaNs. I could not draw any inference from the graph.
 ### Technical Analyses Used
 Created a new df and used resample by week and got sum of the fares for each week
 weekly_fares_df = fare_Jan_April.resample("W").sum()
@@ -50,14 +49,14 @@ weekly_fares_df = fare_Jan_April.resample("W").sum()
 
 ### Recommendations for Future Analysis
 
-### Additional Analysis 1
+### Additional analysis I
 
-* Description of Approach
-
+* I will probably do a deep dive on Urban. Introduce some incentives such as earning reward point.That will increase the turnover in Urban areas 
 * Technical Steps
+I will introduce a dataset rewards. add a filter to the cities and filter Urban to see the increase in the fare.
 
-### Additional Analysis 2
+### Additional Analysis II
 
-* Description of Approach
+* I will dig deep into weekly analysis involving categories of riders. If we see the rides mainly to the downtown area during weekends or maybe at one particular time the riders are to a particular location where there is college I can come up with offers for those frequent riders. 
 
-* Technical Steps
+The frequent riders can earn points and utilize that to purchase other stuff.
